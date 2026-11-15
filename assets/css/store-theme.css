@@ -4,3 +4,49 @@
 
 .auth-page{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(circle at 15% 15%,#5742a8 0,transparent 35%),radial-gradient(circle at 90% 80%,#17677b 0,transparent 32%),#101a35}.auth-card{width:min(100%,440px);background:#ffffffed;border:1px solid #ffffff70;border-radius:24px;padding:30px;box-shadow:0 25px 80px #0005}.auth-card h1{font-size:27px;margin:25px 0 7px}.auth-card p{color:#78839b;font-size:13px}.auth-card form{display:grid;gap:10px;margin-top:22px}.auth-card label{font-size:12px;font-weight:700}.auth-card input,.product-form input,.product-form select,.auth-card textarea{width:100%;padding:12px 13px;border:1px solid #dfe3ee;border-radius:11px;background:#fff;color:#17213b;min-width:0}.auth-card input:focus,.product-form input:focus{outline:2px solid #8d78ff;border-color:transparent}.full{width:100%;margin-top:12px;text-align:center}.auth-foot{text-align:center;margin-top:20px}.auth-foot a{color:#654bd8;font-weight:700}.alert{background:#fff0ef;color:#a23c38;padding:12px;border-radius:10px;font-size:13px}.product-form{display:grid;grid-template-columns:2fr 1fr 1fr 1fr auto;gap:10px}.quick-actions{display:flex;gap:10px;flex-wrap:wrap}.wish-btn{border:0;background:transparent;color:#6b55d9;padding:8px 0;cursor:pointer;font-size:11px}
 @media(max-width:760px){.product-form{grid-template-columns:1fr 1fr}.product-form input:first-of-type{grid-column:1/-1}.product-form button{grid-column:1/-1}.auth-card{padding:23px}.quick-actions .primary-btn{flex:1;text-align:center}}
+
+
+/* Galaxy Glass upgrade: deep-space surfaces with grocery green + harvest orange */
+:root{--navy:#071522;--navy2:#102b35;--violet:#16a36a;--cyan:#f59e0b;--ink:#ecf7f1;--muted:#a7b9b2;--surface:#10232d;--bg:#07131d;--line:#29434a;--shadow:0 18px 48px rgba(0,0,0,.28)}
+body{background:radial-gradient(circle at 8% 0%,#174b3b55,transparent 30%),radial-gradient(circle at 95% 12%,#6b3a1240,transparent 26%),#07131d;color:#ecf7f1}
+.sidebar{background:linear-gradient(165deg,#06131e,#0b302d 72%,#172b25);border-right:1px solid #ffffff12}
+.brand-mark{background:linear-gradient(135deg,#16a36a,#f59e0b);box-shadow:0 8px 24px #16a36a44}
+.nav-link:hover,.nav-link.active{background:linear-gradient(100deg,#11784f,#b86a12);box-shadow:0 8px 22px #16a36a30}
+.main{color:#ecf7f1}
+.eyebrow,.muted,.stat-label,.stat-foot{color:#a7b9b2}
+.page-title,.panel-title{color:#f3fff8}
+.profile,.icon-btn,.stat,.panel,.product-card,.category-card{background:linear-gradient(145deg,#142c36ee,#0e2029ee);border-color:#31504f;box-shadow:0 16px 40px #0003}
+.avatar{background:#164c3b;color:#baf3d6}
+.welcome{background:radial-gradient(circle at 86% 14%,#f59e0b55,transparent 28%),linear-gradient(115deg,#0c392d,#0c2832 58%,#6b3a12);border:1px solid #ffffff1b}
+.stat-icon{background:#174d3b;color:#9af0c3}
+.stat:nth-child(2) .stat-icon{background:#173e43;color:#a7e9ee}
+.stat:nth-child(3) .stat-icon{background:#164c35;color:#a5f0bf}
+.stat:nth-child(4) .stat-icon{background:#553512;color:#ffd18b}
+.stat-foot{color:#7ee0a8}
+th{color:#9cb5aa;border-color:#29434a}
+td{color:#e5f4ec;border-color:#223b40}
+.bars{border-color:#29434a}.bar{background:linear-gradient(180deg,#f59e0b,#16a36a)}
+.store-header{background:linear-gradient(100deg,#06131e,#0b302d 70%,#5a3415);border-bottom:1px solid #ffffff18}
+.store-nav{background:#0d2029;color:#e7f5ed;border-color:#29434a}
+.store-search{background:#172e35;border:1px solid #3a5a53}
+.store-search input{background:transparent;color:#f2fff7}
+.store-search input::placeholder{color:#9cb5aa}
+.store-search button,.primary-btn{background:linear-gradient(110deg,#118653,#d97706);color:#fff}
+.hero-shop{background:radial-gradient(circle at 86% 22%,#f59e0b66,transparent 25%),linear-gradient(110deg,#0b382c,#0b2832 62%,#6b3b14);border:1px solid #ffffff1c;box-shadow:0 20px 55px #0004}
+.hero-shop p{color:#d0e6d9}
+.hero-shop .primary-btn{background:linear-gradient(110deg,#16a36a,#e28a18);color:white}
+.category-card,.product-card{color:#eaf7ef}
+.category-card:hover,.product-card:hover{border-color:#16a36a;box-shadow:0 18px 45px #0005}
+.product-art{background:radial-gradient(circle at 30% 20%,#2c6b4c,#142d35 72%);color:#e6fff0}
+.add-btn{background:#15563c;color:#b9f5d4}
+.wish-btn,.pill-link{color:#8de7b6}
+.offer-strip{background:#163e31;color:#b6f2d0;border:1px solid #28634b}
+.footer{background:#040e17;color:#a9c0b4;border-top:1px solid #29434a}
+.auth-page{background:radial-gradient(circle at 15% 15%,#176044 0,transparent 36%),radial-gradient(circle at 90% 80%,#8a4a13 0,transparent 32%),#07131d}
+.auth-card{background:linear-gradient(145deg,#142c36f5,#0d2029f5);border:1px solid #41615a;color:#effbf4}
+.auth-card h1{color:#f3fff8}.auth-card p{color:#a7b9b2}
+.auth-card label{color:#d9eee2}
+.auth-card input,.auth-card textarea,.product-form input,.product-form select{background:#0b1b24;color:#effbf4;border-color:#36544e}
+.auth-card input::placeholder,.product-form input::placeholder{color:#90a99d}
+.status{border:1px solid #ffffff12}
+@media(max-width:760px){.sidebar{background:linear-gradient(180deg,#06131e,#0b302d)}.main{background:transparent}.store-header{padding:14px 15px}.store-nav{gap:18px}.hero-shop{padding:27px 20px}}
